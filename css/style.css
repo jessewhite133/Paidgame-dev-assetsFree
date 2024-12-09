@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+header input {
+    padding: 10px;
+    width: 60%;
+    margin-top: 10px;
+}
+#filters {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+#filters button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+#assets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.asset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    background: white;
+    text-align: center;
+}
+.asset img {
+    width: 100%;
+    height: auto;
+}
+.asset h2 {
+    font-size: 1.2em;
+}
+.asset p {
+    font-weight: bold;
+}
