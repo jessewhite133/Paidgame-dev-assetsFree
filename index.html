@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find Free and Paid Unity and Unreal Assets.">
+    <title>Game Dev Assets</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Game Dev Assets</h1>
+        <p>Discover Free and Paid Unity & Unreal Assets!</p>
+        <input type="text" id="search" placeholder="Search for assets...">
+    </header>
+    <main>
+        <section id="filters">
+            <button onclick="filterAssets('all')">All</button>
+            <button onclick="filterAssets('free')">Free</button>
+            <button onclick="filterAssets('paid')">Paid</button>
+            <button onclick="filterAssets('unity')">Unity</button>
+            <button onclick="filterAssets('unreal')">Unreal</button>
+        </section>
+        <section id="assets">
+            <!-- Example Assets -->
+            <div class="asset" data-category="unity free">
+                <img src="assets/unity/asset1.jpg" alt="Unity Asset 1">
+                <h2>Unity Asset 1</h2>
+                <p>Free</p>
+                <a href="https://discord.gg/your-server" target="_blank">Join Discord to Download</a>
+            </div>
+            <div class="asset" data-category="unreal paid">
+                <img src="assets/unreal/asset1.jpg" alt="Unreal Asset 1">
+                <h2>Unreal Asset 1</h2>
+                <p>Paid</p>
+                <a href="https://discord.gg/your-server" target="_blank">Join Discord to Download</a>
+            </div>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
